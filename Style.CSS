@@ -1,0 +1,461 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#header .social-media-logos{
+  display: grid;
+  display: flex;
+  height: 50px;
+  width: 40vh;
+  
+  margin-left: 20vh;
+
+}
+#header .social-media-logos .box{
+  height: 50px;
+  width: 50px;
+  border: 2px;
+  border-color: white;
+  border-left-style: solid;
+  margin: auto;
+  margin-top: 5px;   
+}
+#header .social-media-icon{
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+ 
+}
+
+#header .social-media{
+    background: linear-gradient(120deg, #d58a19, #9f6dc6);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#header .social-media .contacts{
+  height: 60px;
+    width: 60ch;
+    
+    display: flex; 
+    align-items: center;
+    justify-content: end;
+    
+    
+}
+#header .social-media .contact{
+  height: 40px;
+    width: 30ch;
+    border-right-style: solid;
+    border-width: 2px;
+    border-color: white;
+    margin-top: 5px;
+   padding-right: 10px;
+    display: flex; 
+    align-items: center;
+    justify-content: end;
+}
+#header .social-media .contact .fa-solid{
+  font-size: 20px;
+  margin-left: 10px;
+}
+#header .social-media a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  margin-left: 10px;
+  
+}
+   
+#header .social-media .email{
+  height: 50px;
+    width: 30vh;
+   
+    margin-top: 5px;
+    margin-right: 50px; 
+    display: flex; 
+    align-items: center;
+}
+#header .social-media .email .fa-solid{
+  font-size: 20px;
+  margin-left: 10px;
+}
+#header .social-media .email a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  margin-left: 10px;
+  
+}
+#header .social-media .btn{
+  height: 40px;
+  width: 180px;
+  border: 2px solid white;
+  background: transparent;
+  border-radius: 50px;
+  text-decoration: none;
+  margin-top: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+   
+}
+
+  
+#header .brand{
+    
+    margin-left: 300px;
+}
+#header .brand a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+
+}
+#header .header{   
+}
+
+#header .nav-bar{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 60px;
+        background-color:white;        
+}
+
+#header .nav-list ul {
+	list-style: none;
+    flex-direction: column;
+	display: grid;
+    display: inline;
+   
+	justify-content: center;
+	align-items: center;
+  
+    margin-right: 250px;
+    
+}
+
+#header .nav-list ul li{
+    display: inline;
+    
+  
+}
+#header .nav-list ul a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+   
+}
+
+#header .nav-list ul a:hover {
+    background-color:#ff9900;
+  }
+  /* Hero Section */
+  #hero{
+    height: 250px;
+    width: 100%;
+    background-image: url(image/img-1.png);
+    background-size: cover;
+    position: relative;
+    box-sizing: content-box;
+    background-repeat: no-repeat;
+    background-color: black;
+	  opacity: 0.7;
+    padding-top: 140px;
+    
+  }
+
+  #hero .inner-line{
+    height: 190px;
+    width: 60%;
+    margin-left: 150px;
+    
+    border-width: 2px;
+    border-color: #ff9900;
+    border-left-style: solid;
+    padding-bottom: 20px;
+  }
+
+  #hero .inner-line h1{
+    color: #011110;
+    font-weight: 700;
+    padding-top: 25PX;
+    margin-left: 20px;
+    letter-spacing: 0.2rem;
+  }
+  #hero .inner-line p{
+    color: #011110;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 1.3rem;
+  }
+
+  #hero .btn{
+    height: 40px;
+    width: 100px;
+    border-style: none;
+    background: linear-gradient(120deg, #d58a19, #9f6dc6);
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+
+  }
+
+  /* End Hero Section */
+
+  /* Option Section */
+
+  #optn{
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(120deg, #d58a19, #9f6dc6);
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+
+  #optn .optn-icon{
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;  
+  }
+
+  #optn h1{
+    font-size: 14px;
+    margin-left: 25px;
+  }
+
+  #optn p{
+    font-size: 12px;
+    margin-left: 15px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 0.01rem;
+  }
+
+  #optn .container{
+    display: flex
+  }
+
+  #optn .optn1{
+    height: 90px;
+    width: 230px;
+    margin-right: 250px;
+    cursor: pointer; 
+  }
+
+  #optn .optn2{
+    height: 90px;
+    width: 230px;
+    cursor: pointer;
+  }
+
+  #optn .optn3{
+    height: 90px;
+    width: 230px; 
+    margin-left: 250px;
+    cursor: pointer;
+   
+  }
+  /* End Option Section */
+
+  /* About Section */
+  #about{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    display: grid;
+    align-items: center;
+
+  }
+  .container1{
+    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #about .about-left{
+    height: 380px;
+    width: 600px;
+    margin-right: 60px;
+  }
+
+  #about .about-left h1{
+    font-size: 30px;
+  }
+  #about .about-left h2{
+    font-size: 20px;
+    color: #010a0a;
+    margin-top: 30px;
+  }
+
+  #about .about-left p{
+    font-size: 15px;
+    color: #010a0a;
+    margin-top: 20px;
+    line-height: 25px;
+    letter-spacing: 0.1rem;
+  }
+
+  #about .about-left .btn{
+    height: 40px;
+    width: 100px;
+    border-style: none;
+    background: linear-gradient(120deg, #d58a19, #9f6dc6);
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 30px;
+    cursor: pointer;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  #about .about-left .btn:hover{
+    background: linear-gradient(120deg, #9f6dc6, #d58a);
+   
+
+    
+  }
+
+  
+
+  #about .about-right{
+    height: 450px;
+    width: 350px;
+    background-image: url(image/about-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:90vh;
+    margin-bottom: 60px;
+    position: absolute;
+  
+  }
+
+  .img-box{
+    height: 70px;
+    width: 60vh;
+    border: 5px solid rgba(180, 20, 20, 0.77);
+    margin-top: 50vh;
+    
+
+  }
+  /* End About Section */
+
+  /* Start Services Section */
+  #service{
+    height: 50vh;
+    width: 100%;
+    padding-top: 10px;
+    background-image: url(image/ser-bg-img.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
+  #service h1{
+   margin-left: 41vh;
+   margin-top: 30px;
+  }
+  .container2{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #service .box1{
+    height: 190px;
+    width: 280px;
+    background-color: #d58a19;
+    margin-right: 20px;
+    margin-top: 40px;
+    background-image: url(image/ser-img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #service .box2{
+    height: 190px;
+    width: 280px;
+    background-color: #d58a19;
+    margin-right: 20px;
+    margin-top: 40px;
+    background-image: url(image/ser-img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #service .box3{
+    height: 190px;
+    width: 280px;
+    background-color: #d58a19;
+    margin-right: 20px;
+    margin-top: 40px;
+    background-image: url(image/ser-img3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #service .service-icon{
+    height: 40px;
+    width: 200px;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-top: 23vh;
+    margin-left: 78px;
+    display: grid;
+    display: flex;
+    
+  }
+  #service .icon{
+    height: 39px;
+    width: 40px;
+    border-radius: 50%;
+    background: linear-gradient(120deg, #9f6dc6, #d58a)
+     
+  }
+
+  #service .icon .fa-solid{
+    color: white;
+    margin-left: 12px;
+    margin-top: 10px;
+  }
+
+  #service .service-icon a{
+    text-decoration: none;
+    margin: auto;
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+ 
+  /* End Start Services Section */
+  
